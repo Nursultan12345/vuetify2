@@ -1,0 +1,38 @@
+#inspire {
+    background: orange;
+}
+
+.c_title {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: white solid 10px;
+}
+
+#txt-primary {
+    color: rgb(49, 68, 155);
+}
+
+#txt-primary .n{
+    color: red;
+}
+
+.btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

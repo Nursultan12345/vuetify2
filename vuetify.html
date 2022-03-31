@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vuetify from</title>
+    <link rel="icon" href="code.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <v-app id="inspire">
+            <v-card class="mx-auto" max-width="600px">
+                <v-img class="mig" height="500px" src="https://photocentra.ru/images/main73/731174_main.jpg">
+                    <v-card-title class="c_title">TOP 10 AUSTRALIAN BEACHES</v-card-title>
+                </v-img>
+                <v-card-subtitle class="pb-0">
+                    Meirzhan
+                </v-card-subtitle>
+                <v-card-text id="txt-primary">
+                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio et odit ab rerum soluta?</div>
+                    <div class="n">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, ea.</div>
+                </v-card-text>
+                <v-card-actions>
+                    <v-btn class="btn1" color="blue" text >
+                        Share
+                    </v-btn>
+                    <v-btn class="btn2" color="blue" text>
+                        OK
+                    </v-btn>
+                </v-card-actions>
+            </v-card>
+        </v-app>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            vuetify: new Vuetify(),
+        })
+    </script>
+</body>
+
+</html>
